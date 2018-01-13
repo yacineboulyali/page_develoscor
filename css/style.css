@@ -1,0 +1,66 @@
+
+*{border-radius: 0px !important;
+
+    background-color: gray;
+}
+
+.block1-title{
+    font-family: Chiller;
+    font-size: 48px;
+    color: #137cc1;
+        margin: 12;
+}
+
+
+.block1-text{
+    font-size: 17px;
+    font-family: 'Montserrat';
+        margin: 12px;
+}
+
+.block1-input{
+    font-size: 17px;
+    font-family: 'Montserrat';
+    margin-top: 36px;
+}
+
+.block1-text2{
+        font-size: 18px;
+        margin-top: 50px; 
+        font-weight: bold;
+}
+
+#basic-addon3{
+    background-color: #70ad45;
+    color: white;
+    border: none;
+    opacity: .8;
+    padding: 9px 66px;
+}
+
+.url{
+        opacity: .8;
+        padding-left: 18px; 
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a6a6a6 !important ;
+  font-style: italic;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #a6a6a6 !important ;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #a6a6a6 !important ;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #a6a6a6 !important ;
+}
+
+.icons-social div{margin: 0px;}
+
+.icons-social .icon1{width:75px;height:45px;}
+.icons-social .icon2{width:75px;height:45px;}
+.icons-social .icon3{width:50px;height:42px;}
+.icons-social .icon4{width: 75px;height: 44px;}
+.icons-social .icon5{width:55px;height: 45px;}
