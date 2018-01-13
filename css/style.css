@@ -1,21 +1,35 @@
 
 *{border-radius: 0px !important;
 
-    background-color: gray;
 }
 
-.block1-title{
+
+header{
+        background-color: #252630
+}
+
+.navbar-inverse{background-color: black;margin: 0px;}
+
+.block1{
+    background-image: url(../image/Toile.png);
+    background-size: 62% 143%;
+    background-repeat: no-repeat;
+    background-position: 58% 18%;
+}
+
+}
+#block1-title{
     font-family: Chiller;
     font-size: 48px;
     color: #137cc1;
-        margin: 12;
+    margin: 12px;
 }
-
 
 .block1-text{
     font-size: 17px;
     font-family: 'Montserrat';
-        margin: 12px;
+    margin: 12px;
+    color: white;
 }
 
 .block1-input{
@@ -27,7 +41,10 @@
 .block1-text2{
         font-size: 18px;
         margin-top: 50px; 
+        color:white;
+        margin-bottom: 50px; 
         font-weight: bold;
+        font-style: italic;
 }
 
 #basic-addon3{
@@ -38,10 +55,7 @@
     padding: 9px 66px;
 }
 
-.url{
-        opacity: .8;
-        padding-left: 18px; 
-}
+.url{opacity: .7;padding-left: 18px;}
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #a6a6a6 !important ;
@@ -57,10 +71,140 @@
   color: #a6a6a6 !important ;
 }
 
-.icons-social div{margin: 0px;}
+.icons-social{margin-bottom:40px;}
+.icons-social div{margin-top: 20px;margin: 8px;}
 
 .icons-social .icon1{width:75px;height:45px;}
 .icons-social .icon2{width:75px;height:45px;}
 .icons-social .icon3{width:50px;height:42px;}
 .icons-social .icon4{width: 75px;height: 44px;}
 .icons-social .icon5{width:55px;height: 45px;}
+
+
+.block2-title1{
+    font-size: 25px;
+    margin-top: 60px;
+    color: #231f20;
+    font-family: 'Montserrat';
+}
+
+.block2-title2{
+    color: #231f20;
+    font-size: 13px;
+    margin-bottom: 70px;
+
+    font-family: 'Montserrat';
+}
+.icons-info{margin-top: 60px; }
+.icons-info .row div img,.icons-info div img{
+    width: 111px;
+    height: 110px;
+}
+
+.icons-info .titre{
+    font-size: 14px;
+        font-family: 'Montserrat';
+ }
+
+ .icons-info .sousTitre{
+    font-size: 11px;
+        font-family: 'Montserrat';
+        font-style: italic;
+ }
+
+
+
+ .block3 {
+    background-image: url("../image/backgrounTrois.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 600px;
+    padding: 30px;
+    margin-top: 50px;
+
+}
+.block3 .block3-text1{
+    color: #e49211;
+     text-align: center;
+    margin-bottom: 75px;
+}
+.block3 h3{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+.block3 .content{
+    margin-left: 70px;
+}
+
+.block3-text1{
+  font-size: 35px;
+    margin-top: 7px;
+    color: #231f20;
+    font-family: 'Montserrat';
+}
+
+.block4{
+    height: 90px;
+    background-color: #dddddd;
+
+}
+ .block4 h4{
+    height: 90px;
+    text-align: center;
+    font-family: "Montserrat Alternates Light";
+    font-size: 23px !important;
+    margin: 0px;
+    padding: 36px;
+}
+.block5-text1{
+    font-family: Montserrat;
+    font-size: 30px;
+    margin: 55px auto 55px auto;
+}
+.block5-text2{
+    font-family: Montserrat;
+    font-size: 16px;
+}
+
+.block5-text3{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 55px auto 55px auto;
+
+}
+
+.block5-text4 ul li{
+    margin: 10px;
+        font-family: Montserrat;
+        font-size: 16px;
+        list-style: red;
+
+
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding-left: 3em; 
+  text-indent: -.9em;
+}
+
+
+.block5-text4 ul li::before {
+  background-color: #e49211;
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  margin-right: 13px;
+  margin-bottom: 2px;
+  height: 8px;
+  width: 8px;
+
+
+  /* or whatever color you prefer */
+}
